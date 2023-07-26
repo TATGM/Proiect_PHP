@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site web - Blog cu pagini multiple</title>
+        <!-- stylesheet aleator -->
+        <link rel="stylesheet" href="./stil.css">
+        <!-- Iconscout CDN -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <!-- Font Google (Montserrat) -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div class="container nav__container">
+            <a href="index.html" class="nav__logo">Tudor's Website</a>
+            <ul class="nav__items">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="despre.html">Despre</a></li>
+                <li><a href="servicii.html">Servicii</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="autentificare.html">Autentificare (Sign in)</a></li>
+                <li class="nav__profile">
+                    <div class="avatar">
+                        <img src="C:\xampp\htdocs\PHP blog\295663057_135695925818394_8158700666164822114_n.jpg">
+                    </div>
+                    <ul>
+                        <li><a href="tablou-bord.html">Tablou bord</a></li>
+                        <li><a href="deconectare.html">Deconectare (Log out)</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <button id="open__nav-btn"><i class="uil uil-bars"></i></button>
+            <button id="close__nav-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+        </nav>
+        
+        <section class="form__section">
+        <div class="container form__section-container">
+            <h2>Adaugă o categorie</h2>
+            <div class="alert__message error">
+                <p>Eroare!</p>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Titlu">
+                <textarea rows="4" placeholder="Descriere"></textarea>
+                <button type="submit" class="btn">Adaugă o categorie</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer__socials">
+            <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a>
+        </div>
+        <div class="container footer__container">
+            <article>
+                <h4>Categorii</h4>
+                <ul>
+                    <li><a href="">Despre mine</a></li>
+                </ul>
+            </article>
+            <article>
+                <h4>Susținere</h4>
+                <ul>
+                    <li><a href="">Susținere online</a></li>
+                    <li><a href="">Numere telefon</a></li>
+                    <li><a href="">Emailuri</a></li>
+                    <li><a href="">Susținere socială</a></li>
+                    <li><a href="">Localizare</a></li>
+                </ul>
+            </article>
+            <article>
+                <h4>Blog</h4>
+                <ul>
+                    <li><a href="">Securitate</a></li>
+                    <li><a href="">Reparații</a></li>
+                    <li><a href="">Recente</a></li>
+                    <li><a href="">Populare</a></li>
+                    <li><a href="">Categorii</a></li>
+                </ul>
+            </article>
+            <article>
+                <h4>Linkuri permanente</h4>
+                <ul>
+                    <li><a href="">Acasă</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Despre blog</a></li>
+                    <li><a href="">Servicii</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </article>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; 2023 Tudor's Website</small>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>
